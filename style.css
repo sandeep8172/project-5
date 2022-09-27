@@ -1,0 +1,168 @@
+body {
+    overflow-x: hidden;
+    font-family: Poppins;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: lighter;
+}
+
+.logo {
+    height: 30px;
+    margin-left: 10px;
+}
+
+.nav-items {
+    display: flex;
+    margin-left: 290px;
+}
+
+.nav-item {
+    margin-left: 60px;
+    font-size: 16px;
+}
+
+.active-item {
+    font-family: Fredoka One;
+    color: red;
+    font-weight: lighter;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.action {
+    margin-left: 220px;
+    height: 40px;
+}
+
+.intro-section {
+    display: flex;
+}
+
+.left-section {
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.circle {
+    height: 35px;
+    padding-left: 10px;
+}
+
+.wireless {
+    margin-top: 10px;
+    font-family: Fredoka One;
+    font-weight: lighter;
+    font-size: 60px;
+}
+
+.sub-headlines {
+    font-family: Poppins;
+    margin-left: 60px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.sub-headline {
+    margin-top: 10px;
+}
+
+.plus {
+    border: 0 solid black;
+    border-radius: 20px;
+    background-color: rgb(231, 113, 34);
+    height: 17px;
+    padding: 4px;
+}
+
+.text {
+    margin-top: 40px;
+    color: rgba(0, 0, 0, 0.237);
+    font-size: 12px;
+}
+
+.action-btns {
+    margin-top: 10px;
+
+}
+
+.action-btn {
+    padding: 15px 30px;
+    border-radius: 23px;
+    background-color: rgb(231, 113, 34);
+    color: white;
+    border: 0;
+    font-size: 16px;
+    margin-top: 58px;
+}
+
+.catalog {
+    margin-left: 30px;
+}
+
+.headphone {
+    height: 430px;
+    margin-right: 60px;
+
+}
+
+.discount {
+    position: absolute;
+    right: 410px;
+    margin-top: 260px;
+    height: 120px;
+
+}
+
+.discount-content {
+    position: absolute;
+    color: white;
+    right: 432px;
+    margin-top: 290px;
+    margin-left: 25px;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.dot {
+    margin-left: 40px;
+    width: 20px;
+    height: 20px;
+    border: 0 black solid;
+    border-radius: 10px;
+}
+
+.yellow-dot {
+    background-color: yellow;
+}
+
+.tomato-dot {
+    background-color: tomato;
+}
+
+.black-dot {
+    background-color: black;
+}
+
+.chart {
+    margin-left: 145px;
+    margin-top: 20px;
+}
